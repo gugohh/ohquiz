@@ -35,12 +35,41 @@
     margin: auto;
     width: 80%;
 }
+.sec-box{
+    background: rgba(214, 195, 118, 0.4);
+    border: 2px rgb(243, 247, 207) solid;
+    width: 75%;
+    margin: 100px auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.name-box{
+    margin: auto;
+    width: 65%;
+}
+
+.name-box div{
+    margin-bottom: 10px;
+}
+
+.name-box div>label, .name-box div>input{
+    width: 100%;
+    display: block; 
+    margin: auto;
+}
+.name-box div>label, .name-box div>label{
+    color: rgb(38, 36, 36);
+}
 
 .option-one{ background: linear-gradient(rgba(20, 186, 161, 0.4), rgba(225, 225, 225, 0.1));}
 
-.option-two{background: linear-gradient(rgba(22, 86, 95, 0.4), rgba(225, 225, 225, 0.1));}
+.option-two{background: linear-gradient(rgba(166, 65, 85, 0.4),rgba(225, 225, 225, 0.1))}
 
-.option-three{background: linear-gradient(rgba(166, 65, 85, 0.4),rgba(225, 225, 225, 0.1))}
+.option-three{background: linear-gradient(rgba(22, 86, 95, 0.4), rgba(225, 225, 225, 0.1));}
 
 .option-four{background: linear-gradient(rgba(217, 158, 40, 0.4), rgba(225, 225, 225, 0.1));}
 
@@ -62,6 +91,11 @@
     text-align: center;
     font-weight: bold;
 }
+.counter{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
 
 input[type="radio"]:checked + label>div {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -80,8 +114,8 @@ input[type="radio"]:checked + label>div {
 }
 
 .main-footer{
-    background: rgba(163, 174, 183, 0.4);
-    width: 50%;
+    background: rgba(214, 195, 118, 0.4);
+    width: 75%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -98,7 +132,6 @@ input[type="radio"]:checked + label>div {
 .footer-button{
     margin: 30px auto;
     font-size: 1.1em;
-    font-weight: bold;
     background:#a38080;
     border: none;
     color: white;
